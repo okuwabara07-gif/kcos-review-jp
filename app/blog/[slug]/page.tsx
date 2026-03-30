@@ -1,4 +1,5 @@
 import { getAllPosts, getPostBySlug } from '@/lib/posts';
+import ReviewSection from '@/components/ReviewSection';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -24,6 +25,8 @@ export default async function BlogPost({ params }: Props) {
       <div style={{marginTop:'2rem',lineHeight:'1.8'}}
         dangerouslySetInnerHTML={{ __html: post.content }}
       />
+      <hr style={{margin:'3rem 0',borderColor:'#eee'}}/>
+      <ReviewSection productName={post.title} />
     </article>
   );
 }
