@@ -1,2 +1,3 @@
 # kcos-review-jp
-韓国コスメレビュー
+
+Updated: 2026-04-01
