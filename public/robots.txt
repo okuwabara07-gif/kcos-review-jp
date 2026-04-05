@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kcos-review-jp.vercel.app/sitemap.xml
